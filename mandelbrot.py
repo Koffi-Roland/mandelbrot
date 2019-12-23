@@ -68,4 +68,4 @@ for x in range(SCREEN_WIDTH):
 
 # Affiche le résultat
 im.show()
-im.save("mandelbrot.png", "png")
+im.save("mandelbrot_output1.png", "png")
