@@ -51,7 +51,6 @@ for x in range(SCREEN_WIDTH):
         new_r = new_i = old_r = old_i = 0
         i = 0
 
-        # Magie noir mathématique (merci Wikipedia)
         while (new_r * new_r + new_i * new_i) < 4.0 and i < MAX_ITERATION:
             old_r = new_r
             old_i = new_i
